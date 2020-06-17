@@ -1,0 +1,48 @@
+
+File can be found at 
+https://www.kaggle.com/cityofLA/los-angeles-traffic-collision-data
+
+We would like to find out if there are any trend or predictors we can identify
+by plotting different types of attributes together.
+
+
+# Heatmap of Race and Area
+Heat map describing the area where accident happens the most categorized 
+by race. From the chart Hispanic have an overall high rate of accidents
+compared to all other races. For Asians and Blacks the accidents
+appears to concentrate on only certain areas while White have a somewhat
+even distribution.
+
+
+# Monthly data with moving average
+Here we have the numbers for monthly accidents over the span of several years.
+The moving average is also plotting with an increase starting around 2015.
+This might be due to a law that was put into effect or some particular changes
+which can be identified by digging deeper into the data set.
+
+
+# Number of accidents per year
+This is the number of accidents per day. Similar to the monthly data there 
+is a clear trend as accidents starting to increases around 2015. 
+
+
+# Race and Age data
+Box plot of age vs race, displaying variation for these data. The median 
+age is around the same for all race. From earlier Hispanics show the most
+accidents but also it has the most outliers. There does not appear to be much 
+variation for most race with the exception of Hispanics and Unknown category.
+
+From these plots it seems fitting cluster could be problematic due to the
+small variations for White, Asian, and Black. Separation could be done separating 
+Hispanics against others using classifier models such as SVM, Random Forest.
+Otherwise if the predictor is to categorize race then its better to use K Means Clustering.
+
+
+
+
+
+
+
+
+
+
